@@ -29,8 +29,11 @@ console.log(profit * expenses);
 
 
  //Average
-const numbers  = [7,9,2];
-console.log(numbers.reduce((acc, num) => acc + num, 0) / numbers.length);
+ let num1=7;
+ let num2=9;
+ let num3=2;
+ let average = (num1 + num2 +num3)/3;
+ console.log(average);
 
 
 //Discount
